@@ -1,6 +1,6 @@
 # SolSnazycat Android beta
 
-This repository tracks bug reports for the SolSnazycat Android shopping app. The public beta download is pending.
+Download the signed Android beta and read the installation notes on the [SolSnazycat Android Beta page](https://solsnazycat.ca/android-beta/). The APK is also available from the [v0.1.4-beta GitHub prerelease](https://github.com/SolSnazycat/solsnazycat-android-beta/releases/tag/v0.1.4-beta).
 
 ## Report an app problem
 
