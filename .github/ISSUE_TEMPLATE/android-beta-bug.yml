@@ -1,0 +1,39 @@
+name: Android beta bug report
+description: Report a reproducible issue with the SolSnazycat Android app
+title: "[Android beta] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue is public. Remove names, addresses, order numbers, payment details, and account information from text and screenshots. For order or account help, use the store’s contact page.
+  - type: input
+    id: device
+    attributes:
+      label: Phone model and Android version
+      placeholder: Samsung Galaxy S23+, Android 15
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version and browsing mode
+      placeholder: v0.1.4, Embedded mode
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: What happened and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Error details or screenshots
+      description: Include any visible error code and remove personal information.
